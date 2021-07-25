@@ -1,0 +1,42 @@
+{
+  "name": "siapi-connector-bookshelf",
+  "version": "3.6.5",
+  "description": "Bookshelf hook for the Siapi framework",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "bookshelf": "^1.0.1",
+    "date-fns": "^2.19.0",
+    "inquirer": "^6.3.1",
+    "lodash": "4.17.21",
+    "p-map": "4.0.0",
+    "pluralize": "^8.0.0",
+    "rimraf": "3.0.2",
+    "siapi-utils": "github:siapi-biru/siapi-utils#v3.6.5"
+  },
+  "peerDependencies": {
+    "knex": "0.21.18"
+  },
+  "siapi": {
+    "dependencies": [
+      "knex"
+    ]
+  },
+  "scripts": {
+    "test": "echo not tests yet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/siapi-biru/siapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/siapi-biru/siapi/issues"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "6f7e0c27e72aacd2824471f7d931d850f36524c6"
+}
