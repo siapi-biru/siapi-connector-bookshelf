@@ -14,7 +14,7 @@
     "p-map": "4.0.0",
     "pluralize": "^8.0.0",
     "rimraf": "3.0.2",
-    "siapi-utils": "github:siapi-biru/siapi-utils#v3.6.5"
+    "siapi-utils": "github:siapi-biru/siapi-utils"
   },
   "peerDependencies": {
     "knex": "0.21.18"
